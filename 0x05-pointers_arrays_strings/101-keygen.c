@@ -6,7 +6,6 @@
  * Return: 0 Always.
  */
 int main(void)
-
 {
 	int r = 0, c = 0;
 	time_t t;
@@ -21,5 +20,5 @@ int main(void)
 		printf("%c", r);
 	}
 	printf("%c\n", (2772 - c));
-	return (0);
+	return (0);
 }
