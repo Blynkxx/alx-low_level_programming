@@ -208,9 +208,9 @@ void add_nums(char *final_prod, char *next_prod, int next_len)
 		for (index = 0; final_prod[index]; index++)
 		{
 			if (final_prod[index] != 'x')
-				putchar(final_prod[index]);
+				_putchar(final_prod[index]);
 		}
-		putchar('\n');
+		_putchar('\n');
 
 		free(next_prod);
 		free(final_prod);
