@@ -3,8 +3,6 @@
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
-
 /**
  * truct op - Struct op
  * @op: The operator
